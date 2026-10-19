@@ -83,8 +83,8 @@ const path = require("node:path");
 
 const MODELS = [
   {
-    model: "deepseek-v4p1-flash[1m]",
-    label: "DeepSeek V4.1 Flash",
+    model: "deepseek-v4p1-flash-1017[1m]",
+    label: "DeepSeek V4.1 Flash 1017",
     description: "👀 Fireworks: cached $0.006 · in  $0.30 · out  $1.20",
   },
   {
@@ -232,7 +232,7 @@ echo "*** Configuring claude to use fireworks models..."
 "${FC}" claude on \
     --subagent "glm-5p3-flash" \
     --haiku "glm-5p3-flash" \
-    --sonnet "deepseek-v4p1-flash" \
+    --sonnet "deepseek-v4p1-flash-1017" \
     --opus native \
     --fable native
 echo
@@ -254,5 +254,5 @@ echo
 echo "*** WARNING: opus and fable slots now default to using anthropic models."
 echo "  - prefer to use the exact model ids you want with /model or use the selector"
 echo "  - similarly, use model ids in custom commands or agents if you want open models"
-echo "  - for technical reasons, sonnet is deepseek-v4p1-flash and haiku is glm-5p3-flash."
+echo "  - for technical reasons, sonnet is deepseek-v4p1-flash-1017 and haiku is glm-5p3-flash."
 echo "    this is not due to their relative strength or price."
