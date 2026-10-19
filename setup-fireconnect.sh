@@ -100,7 +100,7 @@ const MODELS = [
   {
     model: "claude-sonnet-5-5[1m]",
     label: "Claude Sonnet 5.5",
-    description: "👀 Anthropic: cached $0.20  · in  $4    · out $10",
+    description: "👀 Anthropic: cached $0.10  · in  $4    · out $10",
   },
   {
     model: "claude-opus-5-5[1m]",
