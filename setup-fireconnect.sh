@@ -253,6 +253,9 @@ echo "  - run 'nexus key export' to get your fireworks API key"
 echo "  - run 'nexus claude off' to restore your claude config to its pre-fireworks state"
 echo "  - run update-fireclaude to (re)apply the latest settings (it is safely idempotent)"
 echo
+echo "*** WARNING: fireconnect has been renamed to nexus."
+echo "  - the binary is now 'nexus'; update any scripts or commands that still call 'fireconnect'"
+echo
 echo "*** WARNING: opus and fable slots now default to using anthropic models."
 echo "  - prefer to use the exact model ids you want with /model or use the selector"
 echo "  - similarly, use model ids in custom commands or agents if you want open models"
